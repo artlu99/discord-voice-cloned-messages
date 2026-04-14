@@ -1,0 +1,20 @@
+[project]
+name = "discord-voice-cloned-messages"
+version = "0.1.0"
+description = "generate voice message, send to Discord"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "click>=8.3.2",
+    "davey>=0.1.5",
+    "discord-py>=2.7.1",
+    "ffmpeg-python>=0.2.0",
+    "pocket-tts>=1.1.1",
+    "pynacl>=1.6.2",
+    "tomli>=2.0.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0.0",
+]
